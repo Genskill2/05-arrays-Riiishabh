@@ -11,7 +11,7 @@ int min(int arr[], int n)
   int min1 =arr[0];
   for (int i=1; i<n;i++)
   {
-    if (arr[i]<min)
+    if (arr[i]<min1)
       min1=arr[i];   
   }
   return min1;
@@ -22,7 +22,7 @@ int max(int arr[], int n)
   int max1 =arr[0];
   for (int i=1; i<n;i++)
   {
-    if (arr[i]>max)
+    if (arr[i]>max1)
       max1=arr[i];   
   }
   return max1;
