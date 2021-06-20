@@ -1,5 +1,10 @@
 #include <stdio.h>
 #include <math.h>
+int max(int [], int);
+int min(int [], int);
+float average(int [], int);
+int mode(int [], int);
+int factors(int, int []);
 
 int min(int arr[], int n)
 {
